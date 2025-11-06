@@ -44,7 +44,7 @@ const Movies = () => {
 
   const getRatingStars = rating => {
     const stars = Math.round(rating / 2);
-    return '★'.repeat(stars) + '☆'.repeat(5 - stars);
+    return '★'.repeat(stars) + '☆'.repeat(5 - stars); //akwfjasfasbnfmwea//
   };
 
   return (
